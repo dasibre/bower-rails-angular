@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '4.1.8'
 gem 'pg'
-gem 'bower-rails'
+#gem 'bower-rails'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 gem 'sass'
@@ -22,5 +22,6 @@ group :test, :development do
   gem 'factory_girl_rails'
   gem 'capybara'
   gem 'database_cleaner'
+  gem 'bower-rails'
   gem 'selenium-webdriver'
 end
