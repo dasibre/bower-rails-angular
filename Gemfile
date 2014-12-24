@@ -17,7 +17,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 
 gem 'spring',        group: :development
 
-gem "foreman"
+gem 'foreman'
 
 group :test, :development do
   gem 'rspec-rails'
@@ -30,5 +30,5 @@ end
 group :production, :staging do
   gem 'rails_12factor'
   gem 'rails_stdout_logging'
-  gem "rails_serve_static_assets"
+  gem 'rails_serve_static_assets'
 end
