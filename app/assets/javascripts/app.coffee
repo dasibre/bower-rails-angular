@@ -1,13 +1,15 @@
-receta = angular.module('receta', [
+receta = angular.module('receta',[
   'templates',
   'ngRoute',
-  'controllers'
+  'controllers',
 ])
 
 receta.config([ '$routeProvider',
-                ($routeProvider)->
-                  $routeProvider
-                    .when('/', templateUrl: 'index.html' controller: 'RecipesController')
+  ($routeProvider)->
+    $routeProvider
+    .when('/',
+      templateUrl: 'index.html'
+      controller: 'RecipesController')
 ])
 
 controllers = angular.module('controllers', [])
